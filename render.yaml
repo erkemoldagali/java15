@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: java15
+    name: my-web-app
     env: java
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/my_web_app-0.0.1-SNAPSHOT.jar"
